@@ -12,7 +12,7 @@ form.addEventListener("submit", (e) => {
 });
 
 async function fetchNews(searchQuery) {
-  const apiKey = "472507e5-daed-4ddb-bf10-c2ea61d4979b";
+  const apiKey = "*";
   const response = await fetch(
     `https://content.guardianapis.com/search?q=${searchQuery}&api-key=${apiKey}`
   );
